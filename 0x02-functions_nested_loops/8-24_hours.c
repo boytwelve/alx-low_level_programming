@@ -5,7 +5,7 @@
  * Return: 0 if successful
  */
 
-void jack_bauer(voi``d)
+void jack_bauer(void)
 
 {
 	int i, j, k, m;
