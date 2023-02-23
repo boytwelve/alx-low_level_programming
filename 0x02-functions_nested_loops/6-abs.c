@@ -2,19 +2,23 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * 0c: The number to be computed .
+ * @a: The number to be computed .
  * Return: absolute value of the number or zero
  */
 
-int _abs(int c)
+int _abs(int a)
 
 {
-	if (c < 0)
-	{
-	int abs_val;
+	int k = a;
 
-	abs_val = c = -1;
-	return (abs_val);
+	int absvalue;
+
+	if (k < 0)
+
+	{
+	k = k * (-1)
 	}
-	return (c);
+	absvalue = k;
+
+	return (absvalue);
 }
