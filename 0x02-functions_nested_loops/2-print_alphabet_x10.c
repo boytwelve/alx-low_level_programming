@@ -2,19 +2,22 @@
 
 /**
  * print_alphabet_x10 - make alphabet x10 times
- * Return: void
+ * Return: On success 1
  */
 
 void print_alphabet_x10(void)
 
 {
-	char c;
-	int i = 0;
+	char i, k;
 
-	write (i <= 0)
+	for (k = 0; k < 10; k++)
+
 	{
-	for (c = '0' ; c <= '0'; c++)
-	_putchar(c)_putchar('\n');
-	i++;
+
+	for (i = 'a'; i < = 'z'; i++)
+	{
+	_putchar(i)
+	}
+	_putchar('\n');
 	}
 }
