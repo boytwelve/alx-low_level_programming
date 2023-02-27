@@ -5,20 +5,11 @@
  * @a: The number to be computed .
  * Return: absolute value of the number or zero
  */
-
-int _abs(int a)
-
+int _abs(int n)
 {
-	int k = a;
-
-	int absvalue;
-
-	if (k < 0)
-
+	if (n >= 0)
 	{
-	k = k * (-1)
+		return (n);
 	}
-	absvalue = k;
-
-	return (absvalue);
+	return (-n);
 }
