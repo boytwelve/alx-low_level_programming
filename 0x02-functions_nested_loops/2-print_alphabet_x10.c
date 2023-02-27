@@ -4,20 +4,22 @@
  * print_alphabet_x10 - make alphabet x10 times
  * Return: On success 1
  */
-
 void print_alphabet_x10(void)
-
 {
-	char i, k;
+	char ch;
+	int i;
 
-	for (k = 0; k < 10; k++)
+	i = 0;
 
+	while (i < 10)
 	{
-
-	for (i = 'a'; i < = 'z'; i++)
-	{
-	_putchar(i)
-	}
-	_putchar('\n');
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
 	}
 }
